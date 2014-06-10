@@ -39,13 +39,17 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program File/Unity Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/Unity Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program File/Unity Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/Unity Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\EdgeTrigger.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameGUI.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\Playermovement.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" />

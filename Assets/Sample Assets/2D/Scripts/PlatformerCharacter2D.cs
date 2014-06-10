@@ -86,7 +86,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 			anim.SetBool ("Ground", false);
 			rigidbody2D.velocity = new Vector2 (0, 0);
 			rigidbody2D.AddForce (new Vector2 (0f, jumpForce));
+			gameObject.layer = 9;
+			anim.SetBool ("Ground", true);
 		}
+		if (rigidbody2D.velocity.y < 0) {
+			gameObject.layer=8;
+		}
+
 	}
 	
 	void Flip ()
